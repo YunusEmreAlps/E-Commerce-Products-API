@@ -13,7 +13,7 @@ const product_details = require("./product.json");
 app.get("/", (req, res) => {
   res.status(200).send({
     response: "OK",
-    message: "Sachin E-Commerce Products API",
+    message: "E-Commerce Products API",
     "api-routes": {
       "all-products": "/api/products",
       "single-product": "/api/product/:id",
